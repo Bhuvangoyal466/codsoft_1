@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(51, 8, 75);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+button a {
+    color: white;
+    font-family: "Comfortaa", cursive;
+    font-size: 15px;
+    font-weight: 700;
+}
+p {
+    display: inline-block;
+}
+#tata {
+    font-family: "Comfortaa", cursive;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+#play {
+    font-family: "Comfortaa", cursive;
+    color: #e10092;
+    font-weight: 900;
+    font-size: 25px;
+}
+#home {
+    background-color: rgb(51, 8, 75);
+    font-family: "Comfortaa", cursive;
+    margin-left: 40px;
+    border: 0px solid black;
+    height: 75px;
+}
+#home a {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#watch {
+    color: #e10092;
+    font-family: "Comfortaa", cursive;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+#company {
+    margin-left: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.recharge {
+    margin-right: 40px;
+    margin-left: 700px;
+    color: white;
+    background-color: #e10092;
+    height: 35px;
+    width: 125px;
+    border: 0px solid black;
+    border-radius: 3px;
+}
+#help {
+    color: white;
+    background-color: #e10092;
+    height: 35px;
+    width: 125px;
+    border: 0px solid black;
+    border-radius: 3px;
+}
+.main {
+    height: 400px;
+    width: 100%;
+}
+.main p {
+    margin-top: 30px;
+    font-size: 27px;
+    margin-top: 30px;
+    color: rgb(51, 8, 75);
+    margin-left: 40%;
+    font-family: "Comfortaa", cursive;
+    font-weight: 500;
+}
+#sub {
+    color: rgb(59, 57, 57);
+    margin-left: 42%;
+    font-size: 15px;
+    line-height: 0px;
+}
+.account {
+    height: 200px;
+    width: 350px;
+    box-shadow: 0px 0px 2px black;
+    margin-left: 37%;
+}
+#acc {
+    color: black;
+    margin-left: 50px;
+    opacity: 100%;
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+#pay {
+    color: rgb(99, 97, 97);
+    margin-left: 80px;
+    opacity: 90%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#acc span {
+    font-size: 16px;
+}
+#rec {
+    margin-left: 85px;
+    width: 200px;
+}
+.binge {
+    height: 75px;
+    width: 350px;
+    box-shadow: 0px 0px 2px black;
+    margin-left: 36.5%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Comfortaa", cursive;
+    background-color: rgb(51, 8, 75);
+    padding: 10px;
+}
+.fa-spotify {
+    height: 100px;
+    width: 50px;
+}
+.binge img {
+    height: 30px;
+    width: 30px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.binge span {
+    font-weight: 700;
+    font-size: 15px;
+}
+.content div {
+    color: white;
+    font-family: "Comfortaa", cursive;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.binge i {
+    font-size: 30px;
+    margin-left: 50px;
+}
+.headings {
+    margin-top: 50px;
+    height: 100px;
+    width: 100%;
+    background-color: #e10092;
+    display: flex;
+    justify-content: center;
+}
+.headings-subjects {
+    height: 100%;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-content i {
+    font-size: 40px;
+    margin-left: 40px;
+}
+.heading-content {
+    color: white;
+    font-family: "Comfortaa", cursive;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    height: 100%;
+    width: 120px;
+}
+#camera {
+    margin-left: 50px;
+}
+.camera {
+    border-left: 0px;
+}
+#manage {
+    margin-left: 35px;
+}
+.manage {
+    border-left: 0px;
+}
+.made {
+    border-left: 0px;
+}
+.explore {
+    border-left: 0px;
+}
+.get {
+    border-left: 0px;
+}
+#get {
+    margin-left: 40px;
+}
+#get-help {
+    margin-left: 30px;
+}
+.heading-content:hover {
+    background-color: #e71577;
+    height: 76%;
+    cursor: pointer;
+    height: 76%;
+    transition-duration: 0.1s;
+}
+.whats-new {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    height: 260px;
+    width: 320px;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.card-button {
+    margin-left: 32%;
+    font-family: "Comfortaa", cursive;
+    font-size: 13px;
+    border: 1px solid #e10092;
+    color: #e10092;
+    font-weight: 800;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 5px #e10092;
+}
+.card img {
+    padding: 10px 10px 5px 10px;
+}
+.new {
+    font-family: "Comfortaa", cursive;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 210px;
+}
+.bar {
+    width: 1060px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 210px;
+    margin-top: 50px;
+    box-shadow: 0px 13px 10px -15px #111;
+    padding: 10px;
+}
+.bar-item {
+    width: 200px;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: "Comfortaa", cursive;
+    color: #e10092;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bar-item i {
+    margin-left: 50px;
+    padding-top: 5px;
+}
+#multi-tv {
+    margin-left: 70px;
+}
+.refer-earn {
+    margin-left: 50px;
+}
+#refer {
+    margin-left: 80px;
+}
+#bar-item-icon {
+    font-size: 30px;
+    margin-left: 0px;
+}
+#refer {
+    margin-left: 20px;
+}
+#multi-tv {
+    margin-left: 10px;
+}
+.bar-item:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    border: 1px solid black;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.ending {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(107, 0, 221, 0.05);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: "Comfortaa", cursive;
+}
+.heading {
+    font-size: 35px;
+}
+.content-one {
+    font-size: 17px;
+    opacity: 0.8;
+}
+.ending-para {
+    font-size: 13px;
+    opacity: 0.7;
+}
+li a {
+    text-decoration: none;
+    color: #e10092;
+    font-size: 13px;
+    font-weight: 900;
+}
+ul {
+    line-height: 28px;
+}
+.ending div {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.about-tata-play {
+    margin-right: 0px;
+    margin-left: 200px;
+}
+.join {
+    font-size: 35px;
+    font-family: "Comfortaa", cursive;
+}
+.contact {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1 {
+    font-size: 35px;
+    font-family: "Comfortaa", cursive;
+    font-weight: 400;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    font-family: "Comfortaa", cursive;
+}
+h1 {
+    margin-left: 150px;
+}
